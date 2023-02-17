@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+   <header>
+    <h1  id="title">HOW CAN WE HELP SO THAT SAM PALACE MAY BE KNOWN</h1>
+    <p id="description"> thank you for your volunte to help  </p>
+   </header>
+   <main>
+    <form id="survey-form">
+
+          <div class="input-element">
+            <label id="name-label">Name</label>
+            <input placeholder="name" type="text" name="" id="name" required>
+        </div>
+
+        <div class="input-element">
+            <label id="email-label">Email</label>
+            <input placeholder="email" type="email" name="" id="email" required>
+          </div>
+
+          <div class="input-element">
+            <label id="number-label">Age</label>
+            <input placeholder="age" type="number" name="" id="age" required min="5" max="100">
+          </div>
+
+          <div class="input-element">
+            <label>What's your favorite food?</label>
+            <select id="dropdown" >
+                <option value="">Meat</option>
+                <option value="">Vegetables</option>
+                <option value="">Chips </option>
+                <option value="">Chill</option>
+            </select>
+          </div>
+
+          <div>
+             <label for="">have you ever been to sam palace before?</label>
+
+             <div>
+             <label for=""><input type="radio" name="   ">Yes</label>
+             </div>
+
+             <div>
+                <label for=""><input type="radio" name="game" >No</label>
+             </div>
+          </div>
+
+          <div>
+            <label for="">which suggest is a good idea?</label>
+            <div>
+              <label for=""><input type="checkbox" name="game " value="play">Hiring good cooks</label>
+            </div>
+           <div>
+               <label for=""><input type="checkbox" name="game " value="tickets">Cheaper chembers</label>
+           </div>
+           <div>
+               <label for=""><input type="checkbox" name="game " value="food">Cheaper food</label>
+           </div>
+           <div>
+               <label for=""><input type="checkbox" name="game " value="calls">Prepare a great adventising campagn</label>
+            </div>
+            <div>
+                <label for=""><input type="checkbox" name="game " value="team">Super team</label>
+            </div>
+         <div>
+            <label for="">Additional commments</label>
+          <div>
+            <textarea type="text" name="" id="" cols="30" rows="10"></textarea>
+          </div>
+         </div>
+         <button type="submit" id="submit">
+            submit
+         </button>
+    </form>
+   </main>
+</body>
+</html>

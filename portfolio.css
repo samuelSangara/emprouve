@@ -1,0 +1,85 @@
+:root{
+   background-color: transparent;
+}
+.im-caption{
+    font-family: monospace;
+}
+#left{
+    float: left;
+    width: 40%;
+    position: relative;
+}
+p{
+    text-align: center;
+}
+#right{
+    text-align: center;
+    background-color: aliceblue;
+    float: right;
+    width: 40%;
+    border: none;
+}
+section,section{
+    padding: 4%;
+}
+h2{
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 9px;
+}
+h3{
+    padding: 10px;
+    background-color: lightblue;
+}
+main{
+    width: 70%;
+    margin: auto;
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+span{
+    font-weight: bold !important;
+}
+ul{
+    margin-left: 10px !important;
+    justify-content: left;
+}
+#title{
+    margin-top: 20px;
+}
+aside{
+    position: fixed;
+}
+
+.motion{
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    animation-name: upa-down;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes upa-down{
+    0%{
+        background-color: transparent;
+        font-weight: bolder;
+        text-decoration: underline;
+        border: 2px solid black;
+        
+    }
+    /* 25%{
+        background-color: transparent;
+        bottom: 30px;
+       
+    } */
+}
+
+
+

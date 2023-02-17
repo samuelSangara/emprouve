@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movement</title>
+    <style>
+        nav{
+            width: 220px;
+            height: 60px;
+            background: scroll;
+            background-color: blue;
+            border-radius: 10px;
+            color: rgb(252, 244, 247);
+            box-shadow: 5px 7px 3px 9px #f38;  
+            border: 3px solid white;
+            margin: 100px auto;
+            position: fixed;
+        }
+        #nav-bar{
+            position: fixed;
+            z-index: 1;
+            animation-name: osciller;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* transform-origin:10% 10% ; */
+        }
+        @keyframes osciller{
+            0%{
+                transform: rotate(1deg);
+            }
+            20%{
+                transform: rotate(20deg);
+            }
+            50%{
+                transform: rotate(50deg);
+            }
+            90%{
+                transform: rotate(90deg);
+            }
+            100%{
+                transform: rotate(200deg);
+            }
+        }
+        h2{
+         box-shadow:0px 0px 4px 4px white ;   
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <h2 class='layout'> <i> Welcom to our page!</i></h2>
+        </nav>
+        <main>
+            <h1>all bout animation in prograamming</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repudiandae ullam voluptatibus possimus voluptatem molestiae maxime amet blanditiis, at facilis deleniti odio harum quidem mollitia consequatur in</p> <br> distinctio explicabo saepe.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis voluptatem ab sed distinctio, nostrum dolor maxime magni nihil quasi aliquam repudiandae consectetur dignissimos voluptatibus <br> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas aspernatur sequi voluptate aliquid, quis beatae asperiores incidunt, dicta soluta impedit maiores quos fugiat autem distinctio, ad odit quia sint. Deleniti!<br</p>doloribus obcaecati esse ipsum fugit?
+                Lorem ipsum dolor sit amet
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium labore nihil quia impedit pariatur voluptatum sapiente repellat amet nemo? Consequuntur amet facilis blanditiis sint
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi modi quos rerum ut. Voluptatum quisquam mollitia in repellat et nesciunt error cum omnis impedit, illum architecto, commodi eum dolores?
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptate provident officia voluptatem neque, accusantium obcaecati sapiente dicta velit ipsa blanditiis possimus voluptas! Quae odio eum dignissimos distinctio praesentium culpa.
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, eius fuga quod in debitis illo laboriosam, recusandae totam iste error perferendis aspernatur dolores doloribus saepe reprehenderit nihil? Obcaecati, laborum cumque.
+                                <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore aliquid, soluta accusamus omnis illo laborum, et dicta illum fuga hic consequuntur exercitationem harum cupiditate aut id est. Fugiat, voluptatum.</p><br></p>
+                        </p><br></p>, officia fuga error similique vitae alias.<br></p> consectetur adipisicing elit. Perspiciatis nostrum nam iusto qui harum fugit. Quo, quisquam nostrum. Adipisci, animi amet aliquam illum aut consectetur dolorum sed suscipit labore accusantium?
+            </p>
+        </main>
+    </header>
+</body>
+</html>

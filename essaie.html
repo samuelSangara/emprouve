@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainning</title>
+    <style>
+        div{
+            width: 190px;
+            height: 40px;
+            background-color: black;
+            position: relative;
+            border-radius: 50%;
+            color: white;
+            margin-left: 70px;
+        }
+        .case::after{
+            position: absolute;
+            content: " ";
+           width: 60px;
+           height: 60px;
+           border-radius: 50%;
+           background-color: black;
+           top: -7px;
+           animation-name: slidding;
+           animation-duration: 2s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+
+        }
+        .case::before{
+            background: transparent;
+            position: absolute;
+            content: " ";
+           width: 60px;
+           height: 60px;
+           border-radius: 50%;
+           top: -7px;
+           left: -30px;
+        
+        }
+        @keyframes slidding{
+            0%{
+                border: 13px solid white;
+                left: -70px;
+                
+            }
+            50%{
+                left: 330px;
+            }
+            100%{
+                right: -200px;
+            }
+        }
+        h2{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>hello world</h1>
+    </header>
+    <main>
+        <div class="case"><h2>welcom to all!</h2></div>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
