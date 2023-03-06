@@ -1,37 +1,3 @@
 body{
-    background-color: lightblue;
-    text-align: center;
+    background-color: aqua;
 }
-form{
-    max-width: 500px;
-    text-align: left;
-    padding: 30px;
-    border: 3px solid black;
-    border-radius: 10px;
-    margin: auto;
-     
-}
-.input-element{
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-}
-input{
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-}
-input[type="checkbox"]{
-    width: 15px;
-    height: 15px;
-}
-textarea{
-    border: none;
-}
-select{
-    padding: 5px;
-    border: none;
-    border-radius: 5px; 
-}
-
-

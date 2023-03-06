@@ -9,6 +9,48 @@
 </head>
 <body>
     <header>
+        <style>
+            .motion{
+             width: 700px;
+             height: 50px;
+             background-color: salmon;
+             color: white;
+             text-align: center;
+             border-radius: 10px;
+             position: absolute;
+               
+               top: 0;
+               right: 0;
+               bottom: 0;
+               left: 10px;
+     
+               transform: rotate(0deg);
+               z-index: 1;
+               animation-duration: 5s;
+               animation-name: wave;
+               animation-iteration-count: infinite;
+               transform-origin:10% 0%;
+               animation-timing-function: linear;
+               position: fixed;
+               box-shadow: 4px 5px 6px 2px greenyellow;
+             
+         }
+         @keyframes wave {
+                 60% {
+                   transform: rotate(0deg);
+                 }
+                 10% {
+                   transform: rotate(30deg);
+                 }
+                 30% {
+                   transform: rotate(110deg);
+                 }
+                 40% {
+                  
+                 }
+               } 
+      </style>
+         
         <h2>Ir SamSangara</h2>
         <p>this is sam sangara native of congo precisly in north kivu province
             this incredible man is amazing, is a blessing and his history pleased 
@@ -117,7 +159,7 @@
                     </li>
                 </ul>
             </section>
-            
+
         </main>
         <footer>&copy; sam's inspiration.</footer>
 </body>
